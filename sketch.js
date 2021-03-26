@@ -23,7 +23,14 @@ function setup() {
 }
 
 function draw() {
-  background(cityImg);  
+
+  background(cityImg);
+  
+  textSize(20);
+  fill(255,20,100);
+  stroke(0);
+  strokeWeight(4);
+  text("* * Use Arrow_Keys to move the Hot Air Balloon * *",30,50);
 
   if(keyDown(UP_ARROW)){
 
